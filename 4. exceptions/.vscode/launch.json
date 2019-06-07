@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - ThrowException",
+            "request": "launch",
+            "mainClass": "ThrowException",
+            "projectName": "4. exceptions_f5b1ea1c"
+        }
+    ]
+}

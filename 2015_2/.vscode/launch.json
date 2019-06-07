@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Libretto",
+            "request": "launch",
+            "mainClass": "Libretto",
+            "projectName": "2015_2_15fec5a3"
+        }
+    ]
+}

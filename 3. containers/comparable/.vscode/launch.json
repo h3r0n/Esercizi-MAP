@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Sort",
+            "request": "launch",
+            "mainClass": "Sort",
+            "projectName": "comparable_fc56f900"
+        }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MultiThread",
+            "request": "launch",
+            "mainClass": "MultiThread",
+            "projectName": "Runnable_29f36d79"
+        }
+    ]
+}

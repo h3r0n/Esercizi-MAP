@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Generics",
+            "request": "launch",
+            "mainClass": "Generics",
+            "projectName": "6. generics_bf966d16"
+        }
+    ]
+}

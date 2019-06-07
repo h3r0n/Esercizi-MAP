@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Treno",
+            "request": "launch",
+            "mainClass": "Treno",
+            "projectName": "2017_2_15fecd25"
+        }
+    ]
+}
