@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Clone",
+            "request": "launch",
+            "mainClass": "Clone",
+            "projectName": "1_4cc7c824"
+        }
+    ]
+}

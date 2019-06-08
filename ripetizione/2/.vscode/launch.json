@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RunRunnable",
+            "request": "launch",
+            "mainClass": "RunRunnable",
+            "projectName": "2_4cc7c825"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RunThread",
+            "request": "launch",
+            "mainClass": "RunThread",
+            "projectName": "2_4cc7c825"
+        }
+    ]
+}
