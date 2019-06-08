@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - InsiemeProdottiOrdinato",
+            "request": "launch",
+            "mainClass": "InsiemeProdottiOrdinato",
+            "projectName": "2014_2_15fec1e2"
+        }
+    ]
+}
