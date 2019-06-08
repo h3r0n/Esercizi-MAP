@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyFrame",
+            "request": "launch",
+            "mainClass": "MyFrame",
+            "projectName": "swing_56ff5fb0"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MyClass",
+            "request": "launch",
+            "mainClass": "MyClass",
+            "projectName": "swing_56ff5fb0"
+        }
+    ]
+}
