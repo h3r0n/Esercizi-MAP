@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Database",
+            "request": "launch",
+            "mainClass": "Database",
+            "projectName": "2016_4_15fec966"
+        }
+    ]
+}
