@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - RunnableCounter",
+            "request": "launch",
+            "mainClass": "RunnableCounter",
+            "projectName": "2014_3_15fec1e3"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - TreadCounter",
+            "request": "launch",
+            "mainClass": "TreadCounter",
+            "projectName": "2014_3_15fec1e3"
+        }
+    ]
+}
