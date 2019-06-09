@@ -1,21 +1,25 @@
-import java.net.*;
 import java.io.*;
+import java.net.*;
 
-class Server {
+public class Server { //jabber = chiacchiera
+    // Scegli una port al di fuori del range 1-1024:
     public static final int PORT = 8080;
-
-    public static void main(String[] args) throws Exception {
-        ServerSocket server = new ServerSocket(PORT);
-        Socket socket = server.accept();
+    public static void main(String[] args) throws IOException {
+        ServerSocket serverSocket = new ServerSocket(PORT);
+        Socket socket = serverSocket.accept();
+        String str = "start";
 
         BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
 
-        String str = in.readLine();
-        //out.println(str);
-        System.out.println(str);
+        for (int i=0; i<10; i++) {
+            str = in.readLine();
+            System.out.println(str);
+            out.println(str);
+        }
 
-        in.close();
-        out.close();
+        socket.close();
+        serverSocket.close();
     }
-}
+} 
+

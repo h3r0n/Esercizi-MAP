@@ -3,20 +3,18 @@ import java.io.*;
 
 public class Client {
     public static void main(String[] args) throws Exception {
-        InetAddress address = InetAddress.getByName("127.0.0.1");
-        Socket socket = new Socket(address, Server.PORT);
+        Socket socket = new Socket("localhost", Server.PORT);
+        String str = "ping";
+        
+        BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
+        PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())), true);
 
-        //BufferedReader in = new BufferedReader(new InputStreamReader(socket.getInputStream()));
-        PrintWriter out = new PrintWriter(new BufferedWriter(new OutputStreamWriter(socket.getOutputStream())));
+        for (int i=0; i<10; i++) {
+            out.println(str);
+            str = in.readLine();
+            System.out.println(str);
+        }
 
-        out.println("Ping");
-
-        //Thread.sleep(1000);
-
-        //String str = in.readLine();
-        //out.println(str);
-
-        //in.close();
-        out.close();
+        socket.close();
     }
 }
