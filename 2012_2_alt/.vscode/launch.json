@@ -1,0 +1,11 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - MappaNavale",
+            "request": "launch",
+            "mainClass": "MappaNavale",
+            "projectName": "2012_2_alt_2987334a"
+        }
+    ]
+}
